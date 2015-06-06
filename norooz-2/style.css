@@ -1,0 +1,366 @@
+body {
+	color: black;
+	background: #3d3f3e;
+	background-image: url(images/back.jpg);
+	margin: 0;
+	padding: 0;
+	font-family: Tahoma;
+	font-size: 11px;
+}
+
+h1 {font-size: 160%;}
+h2 {font-size: 140%;}
+h3 {font-size: 120%;}
+h4 {font-size: 110%;}
+h5 {font-size: 100%;}
+h6 {font-size: 90%;}
+
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0px;
+	margin: 0px;
+}
+
+table {
+	width: 100%;
+}
+table td {
+	padding: 0;
+	border-width: 0;
+	vertical-align: top;
+	color: #F2F2F2;
+}
+table#Header1 {
+	width: 100%; 	background-color: #292b2a;
+
+}
+table#Header11 { 
+	width: 785px; 	
+	background-color: #3d3f3e;
+}
+.HeaderLogo{
+	background-image: url(images/logo.gif);
+	background-repeat: no-repeat;
+	background-position: left;
+	height: 70px;
+	width: 293px;
+}
+.HeaderBanner {
+	text-align: right;
+	vertical-align: middle;
+}
+
+.Header21 {
+	background-color: #92a94f;
+}
+.Header22 {
+	width: 785px;
+}
+.Header23 {
+	background-color: #92a94f;
+}
+
+table#HeaderC {
+border: solid; border-color: #000000; border-width: 1px; 
+	}
+
+.HeaderC1 {
+	width: 780px;
+	background-image: url(images/head_pic.jpg);
+	height: 192px;
+}
+.HeaderC2 {
+	background-color: #dec588;
+}
+.Header32 {
+}
+
+/* Start Menu */
+.headmenu {
+	background-repeat:  no-repeat;
+	width: 94px;
+	text-align: center;
+ }
+
+.headmenu a{
+	color: #FFFFFF;
+	font-size: 10px;
+	display: block;
+	background-image:  url(images/menu.gif);
+	background-repeat:  no-repeat;
+	text-decoration: none;
+	height: 32px;
+	padding-top: 12px;
+   padding-bottom: 0px;
+}
+
+.headmenu a:hover{
+	color:  #595959;
+	text-decoration: none;
+	background-image:  url(images/menu_over.gif);
+}
+
+.headmenu a.menuHead{
+	font-size: 11px;
+}
+
+.headsearch{
+background: url(images/search.gif);
+background-repeat: no-repeat;
+width: 211px;
+height: 32px;
+padding-top: 12px;
+text-align: center;
+}
+
+table#Menu {
+background-color: #3d3f3e;
+}
+
+
+/* End Menu */
+
+table#Main {
+	width: 785px;
+}
+table#Footer {
+	width: 100%;
+}
+.footer {
+	padding: 10px 3px;
+	text-align: center;
+	font-weight: normal;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 10px;
+	background-color: #292b2a;
+	border-top-width: 3px;
+	border-top-style: solid;
+	border-top-color: #666666;
+}
+.footer a {
+	text-decoration: none;
+	font-weight: normal;
+	color: #FFFFFF;
+}
+.footer a:hover {
+	color: #CCCCCC;
+}
+
+a {color: #FF4D33; text-decoration: underline; font-weight: normal;}
+a:hover {
+	color: #ff6600;
+	text-decoration: none;
+}
+
+ul { margin: 2px; padding: 2px; list-style: decimal inside; text-align: left;}
+li { margin-left: 2px; list-style: square inside; color: #CCCCCC}
+
+input.formButton {}
+input {
+	background-color: #CCCCCC;
+	font-size: 10px;
+	color: #000000;
+	border: 1px solid #000000;
+	margin-bottom: 4px;
+}
+input:hover {
+	background-color: #999999;
+}
+.item {
+		margin-bottom: 14px;
+}
+.itemHead {
+	padding: 0px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.itemInfo {text-align: right; padding: 0px;}
+.itemTitle a {
+	font-variant: small-caps;
+	color: #ffffff;
+	font-weight: bold;
+}
+.itemTitle a:hover {color: #ffffff; }
+
+.itemPoster, .itemPostDate, .itemStats, .itemAdminLink, .itemPermaLink {font-size: 90%;}
+.itemBody {
+	padding: 0px;
+}
+.itemText {padding: 10px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 2px;
+	background-color: #161616;
+	border: 1px solid #666666;}
+.itemText:first-letter {}
+.itemFoot {text-align: right; padding: 3px; }
+
+th {color: #FFFFFF; padding : 2px; vertical-align : middle; font-family: Verdana, Arial, Helvetica, sans-serif;}
+
+
+td#leftcolumn {
+	width: 170px;
+	background-color: #577400;
+}
+
+td#leftcolumn th { color: #FFFFFF; vertical-align: middle;}
+td#leftcolumn div.blockTitle {padding: 3px;
+	color: #F7F7F7;
+	font-weight: bold;
+	font-size: 12px;
+	text-align: center;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #C3C3C3;}
+td#leftcolumn div.blockContent {
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+
+td#centercolumn {}
+
+#centerCcolumn, #bottomCcolumn {padding: 0px 3px 1px 3px;}
+#centerLcolumn, #bottomLcolumn {width: 50%; padding: 0px 8px 0px 0px;}
+#centerRcolumn,  #bottomRcolumn {width: 50%; padding: 0px 0px 0px 8px;}
+
+.centercol {}
+
+.centercol .blockTitle {
+	font-size: 130%;
+	padding: 3px;
+	color: #F7F7F7;
+	font-weight: bold;
+	margin-top: 0px;
+	font-variant: small-caps;
+}
+
+.centercol .blockContent {
+    margin-bottom: 2px;
+	background-color: #161616;
+	border: 1px solid #666666;
+	padding: 10px;}
+
+
+div#content {text-align: left; padding: 8px;}
+
+td#rightcolumn {
+	width: 211px;
+	background-color: #3c5000;
+}
+
+td#rightcolumn th { color: #FFFFFF; vertical-align: middle;}
+td#rightcolumn div.blockTitle {
+	padding: 3px;
+	color: #F7F7F7;
+	font-weight: bold;
+	font-size: 12px;
+	text-align: center;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #666666;
+}
+td#rightcolumn div.blockContent {
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+
+td#mainmenu {background-color:  #d24210; }
+
+td#mainmenu a {
+display: block;
+	color: #FFFFFF;
+	font-size: 11px;
+	padding: 6px 5px 6px 14px;
+	font-weight: bold;
+	border-top: 1px solid #EE5724;
+	border-right: 12px solid #AC3000;
+	border-bottom: 1px solid #BB3C11;
+	border-left: 8px solid #EA652D;
+	background-color: #d24210;
+	text-decoration: none;}
+	
+td#mainmenu a:hover {
+   border-top: 1px solid #C03E13;
+	border-right: 12px solid #AC1A00;
+	border-bottom: 1px solid #C03E13;
+	border-left: 8px solid #F77D54;
+	background-color: #EE4F19;}
+	
+td#mainmenu a.menuTop {padding-left: 15px; }
+
+td#mainmenu a.menuMain {padding-left: 15px; }
+
+td#mainmenu a.menuSub {padding-left: 28px;}
+
+td#usermenu a {display: block;
+	color: #FFFFFF;
+	font-size: 11px;
+	padding: 6px 5px 6px 14px;
+	font-weight: bold;
+	border-top: 1px solid #EE5724;
+	border-right: 12px solid #AC3000;
+	border-bottom: 1px solid #BB3C11;
+	border-left: 8px solid #EA652D;
+	background-color: #d24210;
+	text-decoration: none;}
+	
+td#usermenu a:hover {	 border-top: 1px solid #C03E13;
+	border-right: 12px solid #AC1A00;
+	border-bottom: 1px solid #C03E13;
+	border-left: 8px solid #F77D54;
+	background-color: #EE4F19;
+	}
+	
+td#usermenu a.menuTop {}
+
+td#usermenu a.highlight {
+	background-color: #1D509C;
+	color: #FFFFFF;
+}
+
+.outer {}
+.head {
+	padding: 2px;
+	font-weight: bold;
+	border: 1px solid #CCCCCC;
+}
+.even {
+	padding: 5px;
+	border: 1px solid #999999;
+}
+.odd { padding: 2px;	border: 1px solid #999999;
+}
+.foot {padding: 2px; font-weight: bold;}
+tr.even td { padding: 2px;	border: 1px solid #999999;
+}
+tr.odd td {padding: 2px;	border: 1px solid #999999;
+}
+
+div.errorMsg { background-color: #FFCCCC; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.confirmMsg { background-color: #DDFFDF; color: #136C99; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.resultMsg { background-color : #CCCCCC; color: #333333; text-align: center; border-top: 1px solid silver; border-left: 1px solid silver; font-weight: bold; border-right: 1px solid #666666; border-bottom: 1px solid #666666; padding: 10px;}
+
+div.xoopsCode { background: #FFFFFF; border: 1px inset #000080; font-family: "Courier New",Courier,monospace; padding: 0px 6px 6px 6px;}
+div.xoopsQuote { background: #FFFFFF; border: 1px inset #000080; font-family: "Courier New",Courier,monospace; padding: 0px 6px 6px 6px;}
+
+
+.comTitle {font-weight: bold; margin-bottom: 2px;}
+.comText {padding: 2px;}
+.comUserStat {font-size: 10px; color: #2F5376; font-weight:bold; border: 1px solid silver; background-color: #ffffff; margin: 2px; padding: 2px;}
+.comUserStatCaption {font-weight: normal;}
+.comUserStatus {margin-left: 2px; margin-top: 10px; color: #2F5376; font-weight:bold; font-size: 10px;}
+.comUserRank {margin: 2px;}
+.comUserRankText {font-size: 10px;font-weight:bold;}
+.comUserRankImg {border: 0;}
+.comUserName {}
+.comUserImg {margin: 2px;}
+.comDate {font-weight: normal; font-style: italic; font-size: smaller}
+.comDateCaption {font-weight: bold; font-style: normal;}
+
+select {
+	font-size: 90%;
+	margin-bottom: 4px;
+}

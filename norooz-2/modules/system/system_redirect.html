@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=<{$xoops_charset}>" />
+<meta http-equiv="Refresh" content="<{$time}>; url=<{$url}>" />
+<title><{$xoops_sitename}></title>
+<link rel="stylesheet" type="text/css" media="all" href="<{$xoops_themecss}>" />
+</head>
+<body>
+<table align="center" cellpadding="0" cellspacing="0"  id="Header1">
+  <tr>
+    <td >&nbsp;</td>
+    <td >
+	<table id="Header11" border="0" cellspacing="0" cellpadding="0" align="center">
+      <tr>
+        <td  class="HeaderLogo">&nbsp;</td>
+        <td class="HeaderBanner"><{$xoops_banner}></td>
+      </tr>
+    </table>
+	</td>
+    <td  >&nbsp;</td>
+  </tr>
+  <tr>
+    <td  class="Header21" >&nbsp;</td>
+    <td  class="Header22">
+	<table border="0" cellspacing="0" cellpadding="0"  id="HeaderC">
+      <tr>
+        <td  class="HeaderC1">&nbsp;</td>
+        <td class="HeaderC2">&nbsp;</td>
+      </tr>
+    </table></td>
+    <td class="Header23"  >&nbsp;</td>
+  </tr>
+  <tr>
+    <td >&nbsp;</td>
+    <td class="Header32" >
+	 <table width="100%"  border="0" cellspacing="0" cellpadding="0" id="Menu">
+      <tr>
+        <td class="headmenu"><a class="menuHead" href="<{$xoops_url}>">Home</a></td>
+        <td class="headmenu"><a class="menuHead" href="<{$xoops_url}>modules/wfsection/">About Us</a> </td>
+        <td class="headmenu"><a class="menuHead" href="<{$xoops_url}>modules/news/">News</a></td>
+        <td class="headmenu"><a class="menuHead" href="<{$xoops_url}>modules/newbb/">Forum</a></td>
+        <td class="headmenu"><a class="menuHead" href="<{$xoops_url}>modules/wffaq/">FAQ</a></td>
+        <td class="headmenu"><a class="menuHead" href="<{$xoops_url}>modules/liaise/">Contact Us</a> </td>
+		  <td class="headsearch"><form style="margin: 0px;" action="<{$xoops_url}>/search.php" method="get">
+            <input type="text" name="query" size="14" />
+            <input type="hidden" name="action" value="results" />
+            <input name="submit" type="submit" value="Search" />
+	      </form></td>
+		</tr>
+    </table>
+    </td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+<table cellspacing="0" id="Main" align="center">
+    <tr>
+      <td id="centercolumn"  style="padding-top:40px; padding-bottom:60px; ">
+        <!-- Display center blocks if any -->
+<div style="text-align:center; font-weight : bold;">
+  <h4><{$message}></h4>
+  <p><{$lang_ifnotreload}></p>
+</div>
+<{if $xoops_logdump != ''}><div><{$xoops_logdump}></div><{/if}>
+    </tr>
+</table>
+
+  <table cellpadding="0" cellspacing="0" id="Footer" align="center">
+    <tr >
+      <td class="footer">Copyright &copy; 2006. All rights reserved. Your Company. Theme by <a href="http://www.xoopsdesign.com">XOOPDesign.com</a></td>
+    </tr>
+</table>
+</body>
+</html>
